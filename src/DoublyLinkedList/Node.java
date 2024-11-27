@@ -15,6 +15,7 @@ public class Node {
     public Node(Student item, Node next) {
         this.item = item;
         this.next = next;
+
     }
 
     public Node(Student item, Node prev, Node next) {
